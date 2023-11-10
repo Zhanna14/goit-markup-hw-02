@@ -1,0 +1,30 @@
+body {
+    font-family: Roboto;
+    color: #2E2F42;
+}
+
+.section1 {
+    background-color: #2E2F42;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+}
+.service {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.service:active,
+.service:focus {
+    background-color: #404BBF;
+}
