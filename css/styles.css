@@ -4,6 +4,8 @@ body {
     background:#FFFFFF;
 }
 
+/*header*/
+
 .logo-first {
     color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -12,6 +14,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+
 }
 
 .logo-second {
@@ -22,6 +26,8 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
+    
 }
 
 .logofooter {
@@ -33,7 +39,9 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
+.main-contacts {
+    font-style: normal
+}
 .main-navigation,
 .contacts,
 .content-list {
@@ -62,7 +70,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    font-style: normal;
 }
 
 .list-adress:focus,
@@ -70,7 +77,7 @@ body {
     color: #404BBF;
 }
 
-
+/*section 1*/
 .main-section {
     background-color: #2E2F42;
 }
@@ -100,9 +107,9 @@ body {
 .do-order:focus {
     background-color: #404BBF;
 }
-
+ /*section2*/
 .content {
-    color: #FFF;
+    color: #2e2f42;
 }
 
 .employees {
@@ -114,6 +121,7 @@ body {
 }
 
 .main-head {
+    color: #2e2f42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -123,12 +131,14 @@ body {
 }
 
 .content-head {
+    color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
 }
+/*Для параграфа в класі задано стиль line-height: 1.5 для визначення простору між рядками Для параграфа в класі задано стиль letter-spacing: 0.02em для визначення відстані між літерами*/
 
 .content-disription {
     color: #434455;
